@@ -1,0 +1,5 @@
+本工具为linux的解包打包boot.img工具
+cd到当前目录命令
+解包boot命令./mkboot boot.img boot
+打包命令 ./mkboot boot newimgname.img
+newimgname.img是打包好的boot，支持高通,不管是否有dt.img机型都可以完美支持
